@@ -80,7 +80,7 @@ class Spider:
         filename = links[-9:]
         #os.mkdir('Image')
         #进入指定文件夹下载  图片便于管理
-        os.chdir('C:\\Users\\lihaiyi.DESKTOP-338T55Q\\PycharmProjects\\Spider1\\Image')
+        os.chdir('C:\\Users\\****Q\\PycharmProjects\\Spider1\\Image')
 
         with open(filename, 'wb') as f:
             f.write(image)
